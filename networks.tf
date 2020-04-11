@@ -93,15 +93,7 @@ resource "aws_security_group" "nginx-sg" {
     cidr_blocks = [var.network_address_space]
   }
 
-  # outbound internet access
-  egress {
-    from_port   = 0
-    to_port     = 0
-    protocol    = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
   tags = {
-      Name = "${var.environment_tag}-nginx-sg"
+      Name = "${var.environment}-nginx-sg"
   }
 }
