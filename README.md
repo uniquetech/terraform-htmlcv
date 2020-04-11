@@ -2,7 +2,7 @@
 
 Add your-cv.html to root folder
 
-Add CV.html as you base cv amd edit s3 object resource in s3-iam.tf  to upload as below. #To do convert cv as input variable
+Add yout-cv.html as you base cv and edit s3 object resource in s3-iam.tf as below. #To do convert cv as input variable
 
 ################################################
 
