@@ -17,4 +17,7 @@ Add yout-cv.html as you base cv and edit s3 object resource in s3-iam.tf as belo
 
 Update s3 sync to upload multiple files to support full website
 
+replace instance resource with Auto Scaling group with Launch config
+
+replace Bootstrap provision with shell script
 
