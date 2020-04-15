@@ -41,7 +41,9 @@ resource "aws_iam_role_policy" "allow_s3_all" {
   "Statement": [
     {
       "Action": [
-        "s3:*"
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:GetObjectVersion"
       ],
       "Effect": "Allow",
       "Resource": [
